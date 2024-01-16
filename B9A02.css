@@ -385,7 +385,6 @@
                 line-height: 24px;
                 width: 350px;
                 align-items: center;
-                border: 1px solid black;
             }
             body {
                 width: 600px;
@@ -408,16 +407,36 @@
             .Destination-1 img {
                 width: 520px;
                 height: 276px;
-                margin: 0px;
+                position: relative;
+                right: 10px;
+            }
+            #pick {
+                position: relative;
+                right: 35px;
+            }
+            #chose {
+                position: relative;
+                right: 55px;
             }
             .main {
-                margin: 0px;
+                position: relative;
+                right: 145px;
             }
             .inner-info {
                 flex-direction: column;
             }
             .news-container {
                 flex-direction: column;
+                position: relative;
+                right: 140px;
+            }
+            .map,
+            .hotel,
+            .price-tag {
+                width: 520px;
+                font-size: 14px;
+                position: relative;
+                right: 150px;
             }
             .offer img {
                 width: 470px;
